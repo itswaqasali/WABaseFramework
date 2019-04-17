@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C09EC818762C1E0809988544 /* Pods_WABaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07609D30FB8942DB9D46737F /* Pods_WABaseFramework.framework */; };
 		F537E71422671F8A00EEAD24 /* WABaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F537E71222671F8A00EEAD24 /* WABaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F537E71C22671FB400EEAD24 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E71B22671FB400EEAD24 /* UtilityClass.swift */; };
 		F537E72D226724F200EEAD24 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E71E226724F200EEAD24 /* Array+Extensions.swift */; };
@@ -21,9 +22,15 @@
 		F537E736226724F200EEAD24 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E727226724F200EEAD24 /* UILabel+Extensions.swift */; };
 		F537E737226724F200EEAD24 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E728226724F200EEAD24 /* Date+Extensions.swift */; };
 		F537E738226724F200EEAD24 /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E729226724F200EEAD24 /* UtilityExtensions.swift */; };
+		F537E73F2267291300EEAD24 /* AFParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E73C2267291300EEAD24 /* AFParam.swift */; };
+		F537E7402267291300EEAD24 /* AFManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E73D2267291300EEAD24 /* AFManagerProtocol.swift */; };
+		F537E7412267291300EEAD24 /* AFNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E73E2267291300EEAD24 /* AFNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07609D30FB8942DB9D46737F /* Pods_WABaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WABaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF185F59AD88A10F63D1A9A /* Pods-WABaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WABaseFramework.release.xcconfig"; path = "Target Support Files/Pods-WABaseFramework/Pods-WABaseFramework.release.xcconfig"; sourceTree = "<group>"; };
+		49E5251E5DE9AE7ABFCFA22C /* Pods-WABaseFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WABaseFramework.debug.xcconfig"; path = "Target Support Files/Pods-WABaseFramework/Pods-WABaseFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		F537E70F22671F8A00EEAD24 /* WABaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WABaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F537E71222671F8A00EEAD24 /* WABaseFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WABaseFramework.h; sourceTree = "<group>"; };
 		F537E71322671F8A00EEAD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +47,9 @@
 		F537E727226724F200EEAD24 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 		F537E728226724F200EEAD24 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		F537E729226724F200EEAD24 /* UtilityExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
+		F537E73C2267291300EEAD24 /* AFParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFParam.swift; sourceTree = "<group>"; };
+		F537E73D2267291300EEAD24 /* AFManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFManagerProtocol.swift; sourceTree = "<group>"; };
+		F537E73E2267291300EEAD24 /* AFNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09EC818762C1E0809988544 /* Pods_WABaseFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B96D2D7837405E4E6DBAD28A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49E5251E5DE9AE7ABFCFA22C /* Pods-WABaseFramework.debug.xcconfig */,
+				1EF185F59AD88A10F63D1A9A /* Pods-WABaseFramework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F537E70522671F8A00EEAD24 = {
 			isa = PBXGroup;
 			children = (
 				F537E71122671F8A00EEAD24 /* WABaseFramework */,
 				F537E71022671F8A00EEAD24 /* Products */,
+				B96D2D7837405E4E6DBAD28A /* Pods */,
+				FF289D157D8881B919D68CCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +94,7 @@
 		F537E71122671F8A00EEAD24 /* WABaseFramework */ = {
 			isa = PBXGroup;
 			children = (
+				F537E73B2267291300EEAD24 /* Network */,
 				F537E71D226724F200EEAD24 /* Extensions */,
 				F537E71A22671F9D00EEAD24 /* Utility */,
 				F537E71222671F8A00EEAD24 /* WABaseFramework.h */,
@@ -107,6 +130,24 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		F537E73B2267291300EEAD24 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F537E73C2267291300EEAD24 /* AFParam.swift */,
+				F537E73D2267291300EEAD24 /* AFManagerProtocol.swift */,
+				F537E73E2267291300EEAD24 /* AFNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FF289D157D8881B919D68CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07609D30FB8942DB9D46737F /* Pods_WABaseFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -125,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F537E71722671F8A00EEAD24 /* Build configuration list for PBXNativeTarget "WABaseFramework" */;
 			buildPhases = (
+				FCD88A2C47642ECAFD69AF72 /* [CP] Check Pods Manifest.lock */,
 				F537E70A22671F8A00EEAD24 /* Headers */,
 				F537E70B22671F8A00EEAD24 /* Sources */,
 				F537E70C22671F8A00EEAD24 /* Frameworks */,
@@ -181,20 +223,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FCD88A2C47642ECAFD69AF72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WABaseFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F537E70B22671F8A00EEAD24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F537E7402267291300EEAD24 /* AFManagerProtocol.swift in Sources */,
 				F537E735226724F200EEAD24 /* ButtonItems+Extensions.swift in Sources */,
 				F537E732226724F200EEAD24 /* UIView+Extensions.swift in Sources */,
 				F537E738226724F200EEAD24 /* UtilityExtensions.swift in Sources */,
 				F537E736226724F200EEAD24 /* UILabel+Extensions.swift in Sources */,
+				F537E73F2267291300EEAD24 /* AFParam.swift in Sources */,
 				F537E730226724F200EEAD24 /* Integer+Extensions.swift in Sources */,
 				F537E731226724F200EEAD24 /* UIButtons+Extension.swift in Sources */,
 				F537E737226724F200EEAD24 /* Date+Extensions.swift in Sources */,
 				F537E72F226724F200EEAD24 /* UIViewController+Extensions.swift in Sources */,
 				F537E733226724F200EEAD24 /* String+Extensions.swift in Sources */,
+				F537E7412267291300EEAD24 /* AFNetwork.swift in Sources */,
 				F537E71C22671FB400EEAD24 /* UtilityClass.swift in Sources */,
 				F537E734226724F200EEAD24 /* UIImage+Extensions.swift in Sources */,
 				F537E72D226724F200EEAD24 /* Array+Extensions.swift in Sources */,
@@ -329,6 +399,7 @@
 		};
 		F537E71822671F8A00EEAD24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E5251E5DE9AE7ABFCFA22C /* Pods-WABaseFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -355,6 +426,7 @@
 		};
 		F537E71922671F8A00EEAD24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF185F59AD88A10F63D1A9A /* Pods-WABaseFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

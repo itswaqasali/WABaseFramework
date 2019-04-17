@@ -1,0 +1,6 @@
+framework module Pods_WABaseFramework {
+  umbrella header "Pods-WABaseFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

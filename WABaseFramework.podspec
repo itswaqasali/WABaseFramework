@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WABaseFramework"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = "Base classes A CocoaPods library written in Swift"
@@ -15,6 +15,8 @@ Pod::Spec.new do |spec|
 
   spec.source        = { :git => "https://github.com/itswaqasali/WABaseFramework.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "WABaseFramework/**/*.{h,m,swift}"
+spec.framework = 'UIKit'
+spec.dependency 'Alamofire'
+  spec.source_files  = "WABaseFramework*"
 
 end

@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WABaseFramework"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A CocoaPods library written in Swift"
 
-  spec.description  = "Base classes"
+  spec.description  = "Base classes A CocoaPods library written in Swift"
 
   spec.homepage     = "https://github.com/itswaqasali/WABaseFramework"
   spec.license      = { :type => "MIT", :file => "LICENSE" }

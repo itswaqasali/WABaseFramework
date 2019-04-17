@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		F537E71422671F8A00EEAD24 /* WABaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F537E71222671F8A00EEAD24 /* WABaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F537E71C22671FB400EEAD24 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E71B22671FB400EEAD24 /* UtilityClass.swift */; };
+		F537E72D226724F200EEAD24 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E71E226724F200EEAD24 /* Array+Extensions.swift */; };
+		F537E72E226724F200EEAD24 /* UIColor+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E71F226724F200EEAD24 /* UIColor+Utility.swift */; };
+		F537E72F226724F200EEAD24 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E720226724F200EEAD24 /* UIViewController+Extensions.swift */; };
+		F537E730226724F200EEAD24 /* Integer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E721226724F200EEAD24 /* Integer+Extensions.swift */; };
+		F537E731226724F200EEAD24 /* UIButtons+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E722226724F200EEAD24 /* UIButtons+Extension.swift */; };
+		F537E732226724F200EEAD24 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E723226724F200EEAD24 /* UIView+Extensions.swift */; };
+		F537E733226724F200EEAD24 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E724226724F200EEAD24 /* String+Extensions.swift */; };
+		F537E734226724F200EEAD24 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E725226724F200EEAD24 /* UIImage+Extensions.swift */; };
+		F537E735226724F200EEAD24 /* ButtonItems+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E726226724F200EEAD24 /* ButtonItems+Extensions.swift */; };
+		F537E736226724F200EEAD24 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E727226724F200EEAD24 /* UILabel+Extensions.swift */; };
+		F537E737226724F200EEAD24 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E728226724F200EEAD24 /* Date+Extensions.swift */; };
+		F537E738226724F200EEAD24 /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E729226724F200EEAD24 /* UtilityExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +28,18 @@
 		F537E71222671F8A00EEAD24 /* WABaseFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WABaseFramework.h; sourceTree = "<group>"; };
 		F537E71322671F8A00EEAD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F537E71B22671FB400EEAD24 /* UtilityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
+		F537E71E226724F200EEAD24 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		F537E71F226724F200EEAD24 /* UIColor+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utility.swift"; sourceTree = "<group>"; };
+		F537E720226724F200EEAD24 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		F537E721226724F200EEAD24 /* Integer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+Extensions.swift"; sourceTree = "<group>"; };
+		F537E722226724F200EEAD24 /* UIButtons+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButtons+Extension.swift"; sourceTree = "<group>"; };
+		F537E723226724F200EEAD24 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		F537E724226724F200EEAD24 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F537E725226724F200EEAD24 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		F537E726226724F200EEAD24 /* ButtonItems+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ButtonItems+Extensions.swift"; sourceTree = "<group>"; };
+		F537E727226724F200EEAD24 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		F537E728226724F200EEAD24 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		F537E729226724F200EEAD24 /* UtilityExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +72,7 @@
 		F537E71122671F8A00EEAD24 /* WABaseFramework */ = {
 			isa = PBXGroup;
 			children = (
+				F537E71D226724F200EEAD24 /* Extensions */,
 				F537E71A22671F9D00EEAD24 /* Utility */,
 				F537E71222671F8A00EEAD24 /* WABaseFramework.h */,
 				F537E71322671F8A00EEAD24 /* Info.plist */,
@@ -61,6 +86,25 @@
 				F537E71B22671FB400EEAD24 /* UtilityClass.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		F537E71D226724F200EEAD24 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F537E71E226724F200EEAD24 /* Array+Extensions.swift */,
+				F537E71F226724F200EEAD24 /* UIColor+Utility.swift */,
+				F537E720226724F200EEAD24 /* UIViewController+Extensions.swift */,
+				F537E721226724F200EEAD24 /* Integer+Extensions.swift */,
+				F537E722226724F200EEAD24 /* UIButtons+Extension.swift */,
+				F537E723226724F200EEAD24 /* UIView+Extensions.swift */,
+				F537E724226724F200EEAD24 /* String+Extensions.swift */,
+				F537E725226724F200EEAD24 /* UIImage+Extensions.swift */,
+				F537E726226724F200EEAD24 /* ButtonItems+Extensions.swift */,
+				F537E727226724F200EEAD24 /* UILabel+Extensions.swift */,
+				F537E728226724F200EEAD24 /* Date+Extensions.swift */,
+				F537E729226724F200EEAD24 /* UtilityExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +186,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F537E735226724F200EEAD24 /* ButtonItems+Extensions.swift in Sources */,
+				F537E732226724F200EEAD24 /* UIView+Extensions.swift in Sources */,
+				F537E738226724F200EEAD24 /* UtilityExtensions.swift in Sources */,
+				F537E736226724F200EEAD24 /* UILabel+Extensions.swift in Sources */,
+				F537E730226724F200EEAD24 /* Integer+Extensions.swift in Sources */,
+				F537E731226724F200EEAD24 /* UIButtons+Extension.swift in Sources */,
+				F537E737226724F200EEAD24 /* Date+Extensions.swift in Sources */,
+				F537E72F226724F200EEAD24 /* UIViewController+Extensions.swift in Sources */,
+				F537E733226724F200EEAD24 /* String+Extensions.swift in Sources */,
 				F537E71C22671FB400EEAD24 /* UtilityClass.swift in Sources */,
+				F537E734226724F200EEAD24 /* UIImage+Extensions.swift in Sources */,
+				F537E72D226724F200EEAD24 /* Array+Extensions.swift in Sources */,
+				F537E72E226724F200EEAD24 /* UIColor+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

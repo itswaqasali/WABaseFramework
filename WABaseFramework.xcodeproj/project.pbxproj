@@ -25,6 +25,61 @@
 		F537E73F2267291300EEAD24 /* AFParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E73C2267291300EEAD24 /* AFParam.swift */; };
 		F537E7402267291300EEAD24 /* AFManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E73D2267291300EEAD24 /* AFManagerProtocol.swift */; };
 		F537E7412267291300EEAD24 /* AFNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537E73E2267291300EEAD24 /* AFNetwork.swift */; };
+		F5541A902267307800244A1A /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A522267307700244A1A /* FontManager.swift */; };
+		F5541A912267307800244A1A /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A532267307700244A1A /* BaseManager.swift */; };
+		F5541A922267307800244A1A /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A542267307700244A1A /* ColorManager.swift */; };
+		F5541A932267307800244A1A /* BorderSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A562267307700244A1A /* BorderSide.swift */; };
+		F5541A942267307800244A1A /* CornerSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A572267307700244A1A /* CornerSide.swift */; };
+		F5541A952267307800244A1A /* BorderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A582267307700244A1A /* BorderType.swift */; };
+		F5541A962267307800244A1A /* IBEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A592267307700244A1A /* IBEnum.swift */; };
+		F5541A972267307800244A1A /* MaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A5A2267307700244A1A /* MaskType.swift */; };
+		F5541A982267307800244A1A /* AppStoryboardAndNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A5C2267307800244A1A /* AppStoryboardAndNavigation.swift */; };
+		F5541A992267307800244A1A /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A5E2267307800244A1A /* Alert.swift */; };
+		F5541A9A2267307800244A1A /* DesignUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A5F2267307800244A1A /* DesignUtility.swift */; };
+		F5541A9B2267307800244A1A /* DefaultConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A602267307800244A1A /* DefaultConfig.swift */; };
+		F5541A9C2267307800244A1A /* DeviceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A612267307800244A1A /* DeviceUtility.swift */; };
+		F5541A9D2267307800244A1A /* BaseUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A632267307800244A1A /* BaseUIButton.swift */; };
+		F5541A9E2267307800244A1A /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A642267307800244A1A /* CheckBoxButton.swift */; };
+		F5541A9F2267307800244A1A /* BaseUIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A652267307800244A1A /* BaseUIStepper.swift */; };
+		F5541AA02267307800244A1A /* BaseUIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A662267307800244A1A /* BaseUIPageControl.swift */; };
+		F5541AA12267307800244A1A /* BaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A672267307800244A1A /* BaseUIView.swift */; };
+		F5541AA22267307800244A1A /* BaseUIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A682267307800244A1A /* BaseUIStackView.swift */; };
+		F5541AA32267307800244A1A /* BaseUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A692267307800244A1A /* BaseUITableViewCell.swift */; };
+		F5541AA42267307800244A1A /* BaseUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A6A2267307800244A1A /* BaseUISlider.swift */; };
+		F5541AA52267307800244A1A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A6B2267307800244A1A /* CustomButton.swift */; };
+		F5541AA62267307800244A1A /* CodeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A6C2267307800244A1A /* CodeInputView.swift */; };
+		F5541AA72267307800244A1A /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A6D2267307800244A1A /* BaseUIViewController.swift */; };
+		F5541AA82267307800244A1A /* BaseUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A6E2267307800244A1A /* BaseUILabel.swift */; };
+		F5541AA92267307800244A1A /* BaseUICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A6F2267307800244A1A /* BaseUICollectionView.swift */; };
+		F5541AAA2267307800244A1A /* BaseUISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A702267307800244A1A /* BaseUISwitch.swift */; };
+		F5541AAB2267307800244A1A /* BaseUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A712267307800244A1A /* BaseUITextField.swift */; };
+		F5541AAC2267307800244A1A /* BaseUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A722267307800244A1A /* BaseUITableView.swift */; };
+		F5541AAD2267307800244A1A /* BaseUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A732267307800244A1A /* BaseUINavigationController.swift */; };
+		F5541AAE2267307800244A1A /* BaseUINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A742267307800244A1A /* BaseUINavigationItem.swift */; };
+		F5541AAF2267307800244A1A /* BaseUISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A752267307800244A1A /* BaseUISegmentedControl.swift */; };
+		F5541AB02267307800244A1A /* BaseVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A762267307800244A1A /* BaseVerticalButton.swift */; };
+		F5541AB12267307800244A1A /* AttributedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A772267307800244A1A /* AttributedLabel.swift */; };
+		F5541AB22267307800244A1A /* BaseUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A782267307800244A1A /* BaseUITextView.swift */; };
+		F5541AB32267307800244A1A /* BaseUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A792267307800244A1A /* BaseUICollectionViewCell.swift */; };
+		F5541AB42267307800244A1A /* BaseUIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A7A2267307800244A1A /* BaseUIBarButtonItem.swift */; };
+		F5541AB52267307800244A1A /* BaseUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A7B2267307800244A1A /* BaseUIImageView.swift */; };
+		F5541AB62267307800244A1A /* BaseLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A7D2267307800244A1A /* BaseLayoutConstraint.swift */; };
+		F5541AB72267307800244A1A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A7E2267307800244A1A /* Utility.swift */; };
+		F5541AB82267307800244A1A /* CornerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A802267307800244A1A /* CornerDesignable.swift */; };
+		F5541AB92267307800244A1A /* TintDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A812267307800244A1A /* TintDesignable.swift */; };
+		F5541ABA2267307800244A1A /* FillDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A822267307800244A1A /* FillDesignable.swift */; };
+		F5541ABB2267307800244A1A /* FontDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A832267307800244A1A /* FontDesignable.swift */; };
+		F5541ABC2267307800244A1A /* PlaceholderDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A842267307800244A1A /* PlaceholderDesignable.swift */; };
+		F5541ABD2267307800244A1A /* MaskDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A852267307800244A1A /* MaskDesignable.swift */; };
+		F5541ABE2267307800244A1A /* SideImageDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A862267307800244A1A /* SideImageDesignable.swift */; };
+		F5541ABF2267307800244A1A /* ButtonImageDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A872267307800244A1A /* ButtonImageDesignable.swift */; };
+		F5541AC02267307800244A1A /* BorderDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A882267307800244A1A /* BorderDesignable.swift */; };
+		F5541AC12267307800244A1A /* ShadowDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A892267307800244A1A /* ShadowDesignable.swift */; };
+		F5541AC22267307800244A1A /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A8B2267307800244A1A /* PickerView.swift */; };
+		F5541AC32267307800244A1A /* ImagePickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A8C2267307800244A1A /* ImagePickerHelper.swift */; };
+		F5541AC42267307800244A1A /* CustomTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A8D2267307800244A1A /* CustomTextFields.swift */; };
+		F5541AC52267307800244A1A /* printLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A8E2267307800244A1A /* printLog.swift */; };
+		F5541AC62267307800244A1A /* GlobalStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5541A8F2267307800244A1A /* GlobalStatic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +105,61 @@
 		F537E73C2267291300EEAD24 /* AFParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFParam.swift; sourceTree = "<group>"; };
 		F537E73D2267291300EEAD24 /* AFManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFManagerProtocol.swift; sourceTree = "<group>"; };
 		F537E73E2267291300EEAD24 /* AFNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFNetwork.swift; sourceTree = "<group>"; };
+		F5541A522267307700244A1A /* FontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		F5541A532267307700244A1A /* BaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
+		F5541A542267307700244A1A /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		F5541A562267307700244A1A /* BorderSide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderSide.swift; sourceTree = "<group>"; };
+		F5541A572267307700244A1A /* CornerSide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerSide.swift; sourceTree = "<group>"; };
+		F5541A582267307700244A1A /* BorderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderType.swift; sourceTree = "<group>"; };
+		F5541A592267307700244A1A /* IBEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBEnum.swift; sourceTree = "<group>"; };
+		F5541A5A2267307700244A1A /* MaskType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskType.swift; sourceTree = "<group>"; };
+		F5541A5C2267307800244A1A /* AppStoryboardAndNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboardAndNavigation.swift; sourceTree = "<group>"; };
+		F5541A5E2267307800244A1A /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		F5541A5F2267307800244A1A /* DesignUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignUtility.swift; sourceTree = "<group>"; };
+		F5541A602267307800244A1A /* DefaultConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultConfig.swift; sourceTree = "<group>"; };
+		F5541A612267307800244A1A /* DeviceUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceUtility.swift; sourceTree = "<group>"; };
+		F5541A632267307800244A1A /* BaseUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIButton.swift; sourceTree = "<group>"; };
+		F5541A642267307800244A1A /* CheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		F5541A652267307800244A1A /* BaseUIStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIStepper.swift; sourceTree = "<group>"; };
+		F5541A662267307800244A1A /* BaseUIPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIPageControl.swift; sourceTree = "<group>"; };
+		F5541A672267307800244A1A /* BaseUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIView.swift; sourceTree = "<group>"; };
+		F5541A682267307800244A1A /* BaseUIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIStackView.swift; sourceTree = "<group>"; };
+		F5541A692267307800244A1A /* BaseUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUITableViewCell.swift; sourceTree = "<group>"; };
+		F5541A6A2267307800244A1A /* BaseUISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUISlider.swift; sourceTree = "<group>"; };
+		F5541A6B2267307800244A1A /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F5541A6C2267307800244A1A /* CodeInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeInputView.swift; sourceTree = "<group>"; };
+		F5541A6D2267307800244A1A /* BaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
+		F5541A6E2267307800244A1A /* BaseUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUILabel.swift; sourceTree = "<group>"; };
+		F5541A6F2267307800244A1A /* BaseUICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUICollectionView.swift; sourceTree = "<group>"; };
+		F5541A702267307800244A1A /* BaseUISwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUISwitch.swift; sourceTree = "<group>"; };
+		F5541A712267307800244A1A /* BaseUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUITextField.swift; sourceTree = "<group>"; };
+		F5541A722267307800244A1A /* BaseUITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUITableView.swift; sourceTree = "<group>"; };
+		F5541A732267307800244A1A /* BaseUINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUINavigationController.swift; sourceTree = "<group>"; };
+		F5541A742267307800244A1A /* BaseUINavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUINavigationItem.swift; sourceTree = "<group>"; };
+		F5541A752267307800244A1A /* BaseUISegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUISegmentedControl.swift; sourceTree = "<group>"; };
+		F5541A762267307800244A1A /* BaseVerticalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVerticalButton.swift; sourceTree = "<group>"; };
+		F5541A772267307800244A1A /* AttributedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedLabel.swift; sourceTree = "<group>"; };
+		F5541A782267307800244A1A /* BaseUITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUITextView.swift; sourceTree = "<group>"; };
+		F5541A792267307800244A1A /* BaseUICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUICollectionViewCell.swift; sourceTree = "<group>"; };
+		F5541A7A2267307800244A1A /* BaseUIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIBarButtonItem.swift; sourceTree = "<group>"; };
+		F5541A7B2267307800244A1A /* BaseUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIImageView.swift; sourceTree = "<group>"; };
+		F5541A7D2267307800244A1A /* BaseLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLayoutConstraint.swift; sourceTree = "<group>"; };
+		F5541A7E2267307800244A1A /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		F5541A802267307800244A1A /* CornerDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerDesignable.swift; sourceTree = "<group>"; };
+		F5541A812267307800244A1A /* TintDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TintDesignable.swift; sourceTree = "<group>"; };
+		F5541A822267307800244A1A /* FillDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillDesignable.swift; sourceTree = "<group>"; };
+		F5541A832267307800244A1A /* FontDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontDesignable.swift; sourceTree = "<group>"; };
+		F5541A842267307800244A1A /* PlaceholderDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderDesignable.swift; sourceTree = "<group>"; };
+		F5541A852267307800244A1A /* MaskDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskDesignable.swift; sourceTree = "<group>"; };
+		F5541A862267307800244A1A /* SideImageDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideImageDesignable.swift; sourceTree = "<group>"; };
+		F5541A872267307800244A1A /* ButtonImageDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonImageDesignable.swift; sourceTree = "<group>"; };
+		F5541A882267307800244A1A /* BorderDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderDesignable.swift; sourceTree = "<group>"; };
+		F5541A892267307800244A1A /* ShadowDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowDesignable.swift; sourceTree = "<group>"; };
+		F5541A8B2267307800244A1A /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		F5541A8C2267307800244A1A /* ImagePickerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerHelper.swift; sourceTree = "<group>"; };
+		F5541A8D2267307800244A1A /* CustomTextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFields.swift; sourceTree = "<group>"; };
+		F5541A8E2267307800244A1A /* printLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = printLog.swift; sourceTree = "<group>"; };
+		F5541A8F2267307800244A1A /* GlobalStatic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalStatic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +204,14 @@
 		F537E71122671F8A00EEAD24 /* WABaseFramework */ = {
 			isa = PBXGroup;
 			children = (
+				F5541A8A2267307800244A1A /* CustomClasses */,
+				F5541A552267307700244A1A /* Enums */,
+				F5541A7C2267307800244A1A /* Helpers */,
+				F5541A512267307700244A1A /* Managers */,
+				F5541A5B2267307800244A1A /* Navigation */,
+				F5541A7F2267307800244A1A /* Protocols */,
+				F5541A5D2267307800244A1A /* Utilis */,
+				F5541A622267307800244A1A /* Views */,
 				F537E73B2267291300EEAD24 /* Network */,
 				F537E71D226724F200EEAD24 /* Extensions */,
 				F537E71A22671F9D00EEAD24 /* Utility */,
@@ -138,6 +256,117 @@
 				F537E73E2267291300EEAD24 /* AFNetwork.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		F5541A512267307700244A1A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F5541A522267307700244A1A /* FontManager.swift */,
+				F5541A532267307700244A1A /* BaseManager.swift */,
+				F5541A542267307700244A1A /* ColorManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F5541A552267307700244A1A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F5541A562267307700244A1A /* BorderSide.swift */,
+				F5541A572267307700244A1A /* CornerSide.swift */,
+				F5541A582267307700244A1A /* BorderType.swift */,
+				F5541A592267307700244A1A /* IBEnum.swift */,
+				F5541A5A2267307700244A1A /* MaskType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		F5541A5B2267307800244A1A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F5541A5C2267307800244A1A /* AppStoryboardAndNavigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F5541A5D2267307800244A1A /* Utilis */ = {
+			isa = PBXGroup;
+			children = (
+				F5541A5E2267307800244A1A /* Alert.swift */,
+				F5541A5F2267307800244A1A /* DesignUtility.swift */,
+				F5541A602267307800244A1A /* DefaultConfig.swift */,
+				F5541A612267307800244A1A /* DeviceUtility.swift */,
+			);
+			path = Utilis;
+			sourceTree = "<group>";
+		};
+		F5541A622267307800244A1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5541A632267307800244A1A /* BaseUIButton.swift */,
+				F5541A642267307800244A1A /* CheckBoxButton.swift */,
+				F5541A652267307800244A1A /* BaseUIStepper.swift */,
+				F5541A662267307800244A1A /* BaseUIPageControl.swift */,
+				F5541A672267307800244A1A /* BaseUIView.swift */,
+				F5541A682267307800244A1A /* BaseUIStackView.swift */,
+				F5541A692267307800244A1A /* BaseUITableViewCell.swift */,
+				F5541A6A2267307800244A1A /* BaseUISlider.swift */,
+				F5541A6B2267307800244A1A /* CustomButton.swift */,
+				F5541A6C2267307800244A1A /* CodeInputView.swift */,
+				F5541A6D2267307800244A1A /* BaseUIViewController.swift */,
+				F5541A6E2267307800244A1A /* BaseUILabel.swift */,
+				F5541A6F2267307800244A1A /* BaseUICollectionView.swift */,
+				F5541A702267307800244A1A /* BaseUISwitch.swift */,
+				F5541A712267307800244A1A /* BaseUITextField.swift */,
+				F5541A722267307800244A1A /* BaseUITableView.swift */,
+				F5541A732267307800244A1A /* BaseUINavigationController.swift */,
+				F5541A742267307800244A1A /* BaseUINavigationItem.swift */,
+				F5541A752267307800244A1A /* BaseUISegmentedControl.swift */,
+				F5541A762267307800244A1A /* BaseVerticalButton.swift */,
+				F5541A772267307800244A1A /* AttributedLabel.swift */,
+				F5541A782267307800244A1A /* BaseUITextView.swift */,
+				F5541A792267307800244A1A /* BaseUICollectionViewCell.swift */,
+				F5541A7A2267307800244A1A /* BaseUIBarButtonItem.swift */,
+				F5541A7B2267307800244A1A /* BaseUIImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5541A7C2267307800244A1A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F5541A7D2267307800244A1A /* BaseLayoutConstraint.swift */,
+				F5541A7E2267307800244A1A /* Utility.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F5541A7F2267307800244A1A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F5541A802267307800244A1A /* CornerDesignable.swift */,
+				F5541A812267307800244A1A /* TintDesignable.swift */,
+				F5541A822267307800244A1A /* FillDesignable.swift */,
+				F5541A832267307800244A1A /* FontDesignable.swift */,
+				F5541A842267307800244A1A /* PlaceholderDesignable.swift */,
+				F5541A852267307800244A1A /* MaskDesignable.swift */,
+				F5541A862267307800244A1A /* SideImageDesignable.swift */,
+				F5541A872267307800244A1A /* ButtonImageDesignable.swift */,
+				F5541A882267307800244A1A /* BorderDesignable.swift */,
+				F5541A892267307800244A1A /* ShadowDesignable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F5541A8A2267307800244A1A /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F5541A8B2267307800244A1A /* PickerView.swift */,
+				F5541A8C2267307800244A1A /* ImagePickerHelper.swift */,
+				F5541A8D2267307800244A1A /* CustomTextFields.swift */,
+				F5541A8E2267307800244A1A /* printLog.swift */,
+				F5541A8F2267307800244A1A /* GlobalStatic.swift */,
+			);
+			path = CustomClasses;
 			sourceTree = "<group>";
 		};
 		FF289D157D8881B919D68CCB /* Frameworks */ = {
@@ -253,22 +482,77 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5541AB92267307800244A1A /* TintDesignable.swift in Sources */,
 				F537E7402267291300EEAD24 /* AFManagerProtocol.swift in Sources */,
+				F5541AA12267307800244A1A /* BaseUIView.swift in Sources */,
+				F5541ABF2267307800244A1A /* ButtonImageDesignable.swift in Sources */,
+				F5541AC52267307800244A1A /* printLog.swift in Sources */,
+				F5541A902267307800244A1A /* FontManager.swift in Sources */,
+				F5541AB82267307800244A1A /* CornerDesignable.swift in Sources */,
+				F5541ABD2267307800244A1A /* MaskDesignable.swift in Sources */,
+				F5541AB62267307800244A1A /* BaseLayoutConstraint.swift in Sources */,
 				F537E735226724F200EEAD24 /* ButtonItems+Extensions.swift in Sources */,
 				F537E732226724F200EEAD24 /* UIView+Extensions.swift in Sources */,
+				F5541AA72267307800244A1A /* BaseUIViewController.swift in Sources */,
 				F537E738226724F200EEAD24 /* UtilityExtensions.swift in Sources */,
+				F5541AC62267307800244A1A /* GlobalStatic.swift in Sources */,
+				F5541A9B2267307800244A1A /* DefaultConfig.swift in Sources */,
+				F5541A9E2267307800244A1A /* CheckBoxButton.swift in Sources */,
+				F5541ABB2267307800244A1A /* FontDesignable.swift in Sources */,
+				F5541AA32267307800244A1A /* BaseUITableViewCell.swift in Sources */,
 				F537E736226724F200EEAD24 /* UILabel+Extensions.swift in Sources */,
+				F5541AAA2267307800244A1A /* BaseUISwitch.swift in Sources */,
+				F5541A912267307800244A1A /* BaseManager.swift in Sources */,
+				F5541AAF2267307800244A1A /* BaseUISegmentedControl.swift in Sources */,
+				F5541A9D2267307800244A1A /* BaseUIButton.swift in Sources */,
+				F5541AAD2267307800244A1A /* BaseUINavigationController.swift in Sources */,
+				F5541AA62267307800244A1A /* CodeInputView.swift in Sources */,
+				F5541A9F2267307800244A1A /* BaseUIStepper.swift in Sources */,
+				F5541A972267307800244A1A /* MaskType.swift in Sources */,
+				F5541A982267307800244A1A /* AppStoryboardAndNavigation.swift in Sources */,
+				F5541AAE2267307800244A1A /* BaseUINavigationItem.swift in Sources */,
+				F5541ABA2267307800244A1A /* FillDesignable.swift in Sources */,
+				F5541A922267307800244A1A /* ColorManager.swift in Sources */,
+				F5541AA82267307800244A1A /* BaseUILabel.swift in Sources */,
+				F5541AA42267307800244A1A /* BaseUISlider.swift in Sources */,
 				F537E73F2267291300EEAD24 /* AFParam.swift in Sources */,
+				F5541AB32267307800244A1A /* BaseUICollectionViewCell.swift in Sources */,
+				F5541AAB2267307800244A1A /* BaseUITextField.swift in Sources */,
+				F5541AB72267307800244A1A /* Utility.swift in Sources */,
 				F537E730226724F200EEAD24 /* Integer+Extensions.swift in Sources */,
+				F5541AB22267307800244A1A /* BaseUITextView.swift in Sources */,
+				F5541AB02267307800244A1A /* BaseVerticalButton.swift in Sources */,
+				F5541AAC2267307800244A1A /* BaseUITableView.swift in Sources */,
 				F537E731226724F200EEAD24 /* UIButtons+Extension.swift in Sources */,
+				F5541AB12267307800244A1A /* AttributedLabel.swift in Sources */,
+				F5541AA52267307800244A1A /* CustomButton.swift in Sources */,
 				F537E737226724F200EEAD24 /* Date+Extensions.swift in Sources */,
+				F5541ABC2267307800244A1A /* PlaceholderDesignable.swift in Sources */,
 				F537E72F226724F200EEAD24 /* UIViewController+Extensions.swift in Sources */,
+				F5541A9A2267307800244A1A /* DesignUtility.swift in Sources */,
+				F5541A952267307800244A1A /* BorderType.swift in Sources */,
+				F5541AB42267307800244A1A /* BaseUIBarButtonItem.swift in Sources */,
+				F5541AA02267307800244A1A /* BaseUIPageControl.swift in Sources */,
+				F5541A9C2267307800244A1A /* DeviceUtility.swift in Sources */,
+				F5541A942267307800244A1A /* CornerSide.swift in Sources */,
 				F537E733226724F200EEAD24 /* String+Extensions.swift in Sources */,
+				F5541A992267307800244A1A /* Alert.swift in Sources */,
+				F5541A932267307800244A1A /* BorderSide.swift in Sources */,
+				F5541AC22267307800244A1A /* PickerView.swift in Sources */,
+				F5541AC32267307800244A1A /* ImagePickerHelper.swift in Sources */,
 				F537E7412267291300EEAD24 /* AFNetwork.swift in Sources */,
+				F5541AA22267307800244A1A /* BaseUIStackView.swift in Sources */,
+				F5541AB52267307800244A1A /* BaseUIImageView.swift in Sources */,
+				F5541AC12267307800244A1A /* ShadowDesignable.swift in Sources */,
+				F5541ABE2267307800244A1A /* SideImageDesignable.swift in Sources */,
 				F537E71C22671FB400EEAD24 /* UtilityClass.swift in Sources */,
 				F537E734226724F200EEAD24 /* UIImage+Extensions.swift in Sources */,
 				F537E72D226724F200EEAD24 /* Array+Extensions.swift in Sources */,
 				F537E72E226724F200EEAD24 /* UIColor+Utility.swift in Sources */,
+				F5541AC02267307800244A1A /* BorderDesignable.swift in Sources */,
+				F5541AC42267307800244A1A /* CustomTextFields.swift in Sources */,
+				F5541A962267307800244A1A /* IBEnum.swift in Sources */,
+				F5541AA92267307800244A1A /* BaseUICollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

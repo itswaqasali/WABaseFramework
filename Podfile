@@ -7,4 +7,7 @@ target 'WABaseFramework' do
 
   # Pods for WABaseFramework
 pod 'Alamofire'
+pod 'MOLH'
+pod 'Kingfisher' , '4.10.0'
+pod 'SwiftMessages'
 end

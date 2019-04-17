@@ -4,7 +4,7 @@
 
 import UIKit
 import Alamofire
-//import MOLH
+import MOLH
 
 //main class
 public class AFNetwork: NSObject {
@@ -112,7 +112,7 @@ extension AFNetwork {
             case .failure:
                 let error : Error = response.result.error!
                 debugPrint("responseError: \(error)")
-               // Alert.showMsg(msg: error.localizedDescription)
+                Alert.showMsg(msg: error.localizedDescription)
                 failure(error)
             }
         }
@@ -192,7 +192,7 @@ extension AFNetwork {
                         case .failure(let responseError):
                             
                             debugPrint("responseError: \(responseError)")
-                           // Alert.showMsg(msg: responseError.localizedDescription)
+                            Alert.showMsg(msg: responseError.localizedDescription)
                             failure(responseError)
                         }
                 }

@@ -7,7 +7,7 @@ public enum AppColor {
     case purple
     case gray
 }
-/*
+
 public extension AppColor {
     var value: UIColor {
         var instanceColor = UIColor.clear
@@ -102,4 +102,4 @@ public extension UIColor {
     }
 
 }
-*/
+
